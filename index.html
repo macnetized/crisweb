@@ -1,229 +1,445 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en-US">
+    <head>
+        <title>CrisWeb</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Resume CrisWeb" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CB" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Poppins:200,400,500,700,800&display=swap' rel='stylesheet' type='text/css'>                     
+        <link rel="stylesheet" href="css/clear.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">        
+        <link rel="stylesheet" href="css/prettyPhoto.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="style.css">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>            
+            <script src="js/respond.min.js"></script>                   
+        <![endif]-->                
+    </head>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
+    <body class="one-page"> 
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <div class="doc-loader"></div>
 
-				<!-- Main -->
-					<div id="main">
+        <div class="container">
+            <div class="page-wrapper">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+                <!-- ================= HEADER ================= -->
+                <div id="nav-btn" class="nav-btn">
+                    <span class="nav-btn-cover">
+                        <span class="menu-line"></span>                   
+                    </span>
+                </div>
+                <div class="s-nav">
+                    <div class="nav-count">
+                        <div class="current-num">
+                            <span>01</span>
+                        </div>
+                        <div class="pagination-sep">/</div>
+                        <div class="total-pages-num">07</div>
+                    </div>                                                            
+                    <div class="nav-container">
+                        <a class="site-title slow-scroll" href="#inicio"><img src="images/Logo.svg" style="height: 20PX;" alt="LOGO"></a>
+                        <nav class="nav-menu">
+                            <ul class="nav-list">
+                                <li><a href="#inicio">Inicio</a></li>
+                                <li><a href="#resumen">Resumen</a></li>
+                                <li><a href="#sobremi">Sobre mí</a></li>
+                                <li><a href="#habilidades">Habilidades</a></li>
+                                <li><a href="#experiencia">Experiencia</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>                                                                                                 
+                                <li><a href="#contacto">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <ul class="nav-soc">
+                        <li><a href="#">TW.</a></li>
+                        <li><a href="#">IN.</a></li>
+                        <li><a href="#">FB.</a></li>
+                    </ul>
+                </div>
+                <!-- =============== HEADER END =============== -->
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+                <!-- ================== INICIO ================== -->
+                <section id="inicio" class="section">
+                    <div class="container-wrap">                        
+                        <h1 class="entry-title" data-jarallax-element="0 30">Cristian<br>Baeza,<br>diseñador<br>gráfico<span></span></h1>
+                        <img class="main-photo block-right" data-jarallax-element="0 -30" src="images/photo-1.jpg" alt="">                        
+                        <a href="#resumen" class="main-btn slow-scroll"><img src="images/scroll-icon.svg" alt=""></a>
+                    </div>
+                </section>
+                <!-- ================= HOME END ================= -->
 
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
+                <!-- ================== RESUMEN ================== -->
+                <section id="resumen" class="section">
 
-					</div>
+                    <div class="content-670">
+                        <h2 class="title">RESUMEN</h2>
+                        <div class="section-des">
+                            Cerca de diez (10) años de experiencia como diseñador gráficor.
+                        </div>
+                        <p>
+                            Profesionalemente, durante los últimos años, he dearrollado un perfil multidisciplinar que en la actualidad me permite ser un diseñador dinámico y polivalente con experiencia creativa en el desarrollo y conceptualización de diseños para todo tipo de eventos. Escenografías, key-visuals, y diseño para diferentes soportes gráficos y su posterior artefinalizado para producción.
+                            <br>
+                            Renderizado de imágenes y videos en 3D para las propuestasde de espacios y <i>venues</i>, planos técnicos y despieces para producción.
+                            <br>
+                            Animaciones <i>motion graphics</i>, edición de video y etalonaje.
+                            <br>
+                            Presentaciones y mockups. Landing pages, campañas de email y todo tipo de recursos que cualquier agencia de publicidad y marketing necesita. 
+                        
+                            
+                        </p>
+                    </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                    <ul class="serv-link-cover block-right" data-jarallax-element="0 40">
+                        <li><a href="#">DESCARGAR CV</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                    </ul>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+                    
 
-			</div>
+                </section>
+                <!-- ================ SERVICES END ================ -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                <!-- ==================== SOBRE MI ==================== -->
+                <section id="sobremi" class="section">
+                    <h2 class="title">SOBRE MÍ</h2>
+                    <div class="section-des">
+                        Nací en Valencia a finales de la primavera de 1981.
+                    </div>
 
-	</body>
+                    <div class="content-670">
+                        <p> Soy Géminis, que aunque pueda ser intrascendente profesionalmente,
+                            puede resultar un apunte curioso, como lo puede ser que también me
+                            gusta jugar a padel.
+                            Tengo un espíritu vanguardista en pro de la exploración de nuevas metodologías que puedan contribuir, sobre todo a la eficiencia.
+                        
+                        </p>
+                    </div>
+
+                    <img class="about-img block-right" data-jarallax-element="0 -40" src="images/about-img_1.jpg" alt="">
+
+                    <ul class="about-info" data-threshold="0 0" data-jarallax-element="40 0">
+                        <li>
+                            <h6>EMAIL</h6>
+                            <a href="mailto:cristian.baeza.mesia@gmail.com" style="font-size: 12px;">cristian.baeza.mesia@gmail.com</a>
+                        </li>
+                        <li>
+                            <h6>ROL</h6>
+                            <span>Lead Designer</span>
+                        </li>
+                        <li>
+                            <h6>TELÉFONO</h6>
+                            <a href="tel:+34607294465">(+34) 607 294 465</a>
+                        </li>
+                    </ul>
+
+                    <div class="about-text content-670">
+                        <p>
+                            Me gusta mantenerme al tanto de cualquier tema relacionado con
+                            la tecnología lo que hace que me guste todavía más investigar.<br>Por supuesto, me apasiona el mundo del diseño, desde la arquitectura hasta el entretenimiento digital.<br>
+                            Invierto mucho tiempo en autoformación y actualmente estoy planteandome empezar mis estudios de programación en phyton.
+                        </p>
+                    
+                    </div>
+<svg id="eO3InFapEdH1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 85" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><defs><filter id="eO3InFapEdH2-filter" x="-400%" width="600%" y="-400%" height="600%"><feComponentTransfer id="eO3InFapEdH2-filter-invert-0" result="result"><feFuncR id="eO3InFapEdH2-filter-invert-0-R" type="table" tableValues="1 0"/><feFuncG id="eO3InFapEdH2-filter-invert-0-G" type="table" tableValues="1 0"/><feFuncB id="eO3InFapEdH2-filter-invert-0-B" type="table" tableValues="1 0"/></feComponentTransfer></filter></defs><g transform="matrix(7.75945 0 0 7.75945-1541.349643-1530.712976)" clip-rule="evenodd"><path d="M204.185,204.908v-.9h-1.5v1.008c0,.352-.063.592-.189.72-.119.128-.288.192-.508.192-.276,0-.477-.077-.602-.23-.126-.137-.189-.355-.189-.653v-4.522c0-.331.056-.577.168-.738.104-.145.308-.217.612-.217.224,0,.4.088.528.264.136.184.204.472.204.864v.588h1.464v-.72c0-.376-.058-.703-.173-.981-.116-.277-.277-.514-.484-.71-.39-.385-.907-.577-1.552-.577-.684,0-1.237.2-1.659.6-.405.4-.608.944-.608,1.632v4.44c0,.704.206,1.252.619,1.644.396.392.948.588,1.654.588.653,0,1.175-.181,1.567-.542.2-.181.358-.416.474-.705s.174-.637.174-1.045Z" clip-rule="evenodd" fill="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/><path id="eO3InFapEdH4" d="M209.633,207.08l-1.268-3.924c.346-.152.612-.416.798-.792.177-.36.266-.84.266-1.44c0-.88-.208-1.516-.624-1.908-.416-.4-1.068-.6-1.956-.6h-2.04v8.664h1.464v-3.552l.773-.036l1.065,3.588h1.522Zm-1.704-6.12c0,.488-.078.832-.232,1.032-.162.208-.442.312-.84.312h-.584v-2.664h.547c.431,0,.723.1.877.3.154.216.232.556.232,1.02Z" clip-rule="evenodd" fill="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/><rect id="eO3InFapEdH5" width="1.464" height="8.664" rx="0" ry="0" transform="translate(210.113 198.416)" clip-rule="evenodd" fill="#FFFFFF" stroke-linejoin="round" stroke-miterlimit="2"/><path id="eO3InFapEdH6" d="M216.533,204.985c0-.474-.12-.923-.36-1.349-.12-.208-.296-.441-.528-.698s-.524-.525-.876-.806c-.144-.113-.286-.233-.426-.361-.14-.129-.278-.269-.414-.422-.272-.297-.408-.606-.408-.927c0-.264.064-.473.192-.626.128-.152.304-.228.528-.228.264,0,.464.096.6.288.128.176.2.4.216.672l1.416-.156c-.072-.654-.292-1.162-.66-1.523-.36-.369-.84-.553-1.44-.553-.712,0-1.268.188-1.668.565-.4.378-.6.899-.6,1.565c0,.586.14,1.08.42,1.481.136.201.288.393.456.578.168.184.356.361.564.529.256.209.482.406.678.59.196.185.362.358.498.518.272.305.408.65.408,1.035c0,.233-.08.422-.24.566-.16.136-.364.205-.612.205-.304,0-.528-.144-.672-.432-.136-.264-.212-.556-.228-.876l-1.416.204c.04.712.264,1.288.672,1.728.392.432.912.648,1.56.648.728,0,1.3-.197,1.716-.59s.624-.935.624-1.625Z" clip-rule="evenodd" fill="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/><path id="eO3InFapEdH7" d="M224.741,198.416h-1.404l-.84,5.592-1.02-5.592h-1.224l-.984,5.58-.924-5.58h-1.392l1.644,8.664h1.248l1.02-5.808l1.092,5.808h1.248l1.536-8.664Z" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="0.26" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/><path id="eO3InFapEdH8" d="M229.805,207.08v-1.272h-2.664v-2.568h1.92v-1.308l-1.92.012v-2.256h2.484v-1.272h-3.948v8.664h4.128Z" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="0.26" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/><path id="eO3InFapEdH9" d="M235.661,204.668c0-.688-.12-1.188-.359-1.5-.232-.296-.507-.512-.826-.648.239-.072.47-.268.694-.588.223-.304.335-.728.335-1.272c0-.752-.196-1.312-.587-1.68-.391-.376-.961-.564-1.711-.564h-2.202v8.664h2.393c.719,0,1.277-.212,1.676-.636.391-.432.587-1.024.587-1.776Zm-1.656-3.792c0,.32-.092.584-.276.792-.176.2-.416.3-.72.3h-.54v-2.328h.54c.352,0,.608.104.768.312.152.216.228.524.228.924Zm.192,3.624c0,.464-.086.808-.256,1.032-.162.216-.442.324-.84.324h-.632v-2.664h.486c.422,0,.739.108.949.324.195.208.293.536.293.984Z" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="0.26" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="2"/></g><script><![CDATA[!function(t,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):((t="undefined"!=typeof globalThis?globalThis:t||self).__SVGATOR_PLAYER__=t.__SVGATOR_PLAYER__||{},t.__SVGATOR_PLAYER__["5c7f360c"]=n())}(this,(function(){"use strict";function t(t,n){var r=Object.keys(t);if(Object.getOwnPropertySymbols){var e=Object.getOwnPropertySymbols(t);n&&(e=e.filter((function(n){return Object.getOwnPropertyDescriptor(t,n).enumerable}))),r.push.apply(r,e)}return r}function n(n){for(var r=1;r<arguments.length;r++){var e=null!=arguments[r]?arguments[r]:{};r%2?t(Object(e),!0).forEach((function(t){u(n,t,e[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(n,Object.getOwnPropertyDescriptors(e)):t(Object(e)).forEach((function(t){Object.defineProperty(n,t,Object.getOwnPropertyDescriptor(e,t))}))}return n}function r(t){return(r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}function e(t,n){if(!(t instanceof n))throw new TypeError("Cannot call a class as a function")}function i(t,n){for(var r=0;r<n.length;r++){var e=n[r];e.enumerable=e.enumerable||!1,e.configurable=!0,"value"in e&&(e.writable=!0),Object.defineProperty(t,e.key,e)}}function o(t,n,r){return n&&i(t.prototype,n),r&&i(t,r),t}function u(t,n,r){return n in t?Object.defineProperty(t,n,{value:r,enumerable:!0,configurable:!0,writable:!0}):t[n]=r,t}function a(t){return(a=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)})(t)}function l(t,n){return(l=Object.setPrototypeOf||function(t,n){return t.__proto__=n,t})(t,n)}function f(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(t){return!1}}function s(t,n,r){return(s=f()?Reflect.construct:function(t,n,r){var e=[null];e.push.apply(e,n);var i=new(Function.bind.apply(t,e));return r&&l(i,r.prototype),i}).apply(null,arguments)}function c(t,n){if(n&&("object"==typeof n||"function"==typeof n))return n;if(void 0!==n)throw new TypeError("Derived constructors may only return object or undefined");return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t)}function h(t,n,r){return(h="undefined"!=typeof Reflect&&Reflect.get?Reflect.get:function(t,n,r){var e=function(t,n){for(;!Object.prototype.hasOwnProperty.call(t,n)&&null!==(t=a(t)););return t}(t,n);if(e){var i=Object.getOwnPropertyDescriptor(e,n);return i.get?i.get.call(r):i.value}})(t,n,r||t)}function v(t){return function(t){if(Array.isArray(t))return y(t)}(t)||function(t){if("undefined"!=typeof Symbol&&null!=t[Symbol.iterator]||null!=t["@@iterator"])return Array.from(t)}(t)||function(t,n){if(!t)return;if("string"==typeof t)return y(t,n);var r=Object.prototype.toString.call(t).slice(8,-1);"Object"===r&&t.constructor&&(r=t.constructor.name);if("Map"===r||"Set"===r)return Array.from(t);if("Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))return y(t,n)}(t)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function y(t,n){(null==n||n>t.length)&&(n=t.length);for(var r=0,e=new Array(n);r<n;r++)e[r]=t[r];return e}var g=d(Math.pow(10,-6));function d(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:6;if(Number.isInteger(t))return t;var r=Math.pow(10,n);return Math.round((+t+Number.EPSILON)*r)/r}function p(t,n){var r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:g;return Math.abs(t-n)<r}var m=Math.PI/180;function b(t){return t}function w(t,n,r){var e=1-r;return 3*r*e*(t*e+n*r)+r*r*r}function A(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1,e=arguments.length>3&&void 0!==arguments[3]?arguments[3]:1;return t<0||t>1||r<0||r>1?null:p(t,n)&&p(r,e)?b:function(i){if(i<=0)return t>0?i*n/t:0===n&&r>0?i*e/r:0;if(i>=1)return r<1?1+(i-1)*(e-1)/(r-1):1===r&&t<1?1+(i-1)*(n-1)/(t-1):1;for(var o,u=0,a=1;u<a;){var l=w(t,r,o=(u+a)/2);if(p(i,l))break;l<i?u=o:a=o}return w(n,e,o)}}function x(){return 1}function k(t){return 1===t?1:0}function S(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;if(1===t){if(0===n)return k;if(1===n)return x}var r=1/t;return function(t){return t>=1?1:(t+=n*r)-t%r}}var _=Math.sin,O=Math.cos,j=Math.acos,M=Math.asin,P=Math.tan,E=Math.atan2,I=Math.PI/180,R=180/Math.PI,F=Math.sqrt,N=function(){function t(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:0,o=arguments.length>3&&void 0!==arguments[3]?arguments[3]:1,u=arguments.length>4&&void 0!==arguments[4]?arguments[4]:0,a=arguments.length>5&&void 0!==arguments[5]?arguments[5]:0;e(this,t),this.m=[n,r,i,o,u,a],this.i=null,this.w=null,this.s=null}return o(t,[{key:"determinant",get:function(){var t=this.m;return t[0]*t[3]-t[1]*t[2]}},{key:"isIdentity",get:function(){if(null===this.i){var t=this.m;this.i=1===t[0]&&0===t[1]&&0===t[2]&&1===t[3]&&0===t[4]&&0===t[5]}return this.i}},{key:"point",value:function(t,n){var r=this.m;return{x:r[0]*t+r[2]*n+r[4],y:r[1]*t+r[3]*n+r[5]}}},{key:"translateSelf",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;if(!t&&!n)return this;var r=this.m;return r[4]+=r[0]*t+r[2]*n,r[5]+=r[1]*t+r[3]*n,this.w=this.s=this.i=null,this}},{key:"rotateSelf",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0;if(t%=360){var n=_(t*=I),r=O(t),e=this.m,i=e[0],o=e[1];e[0]=i*r+e[2]*n,e[1]=o*r+e[3]*n,e[2]=e[2]*r-i*n,e[3]=e[3]*r-o*n,this.w=this.s=this.i=null}return this}},{key:"scaleSelf",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:1;if(1!==t||1!==n){var r=this.m;r[0]*=t,r[1]*=t,r[2]*=n,r[3]*=n,this.w=this.s=this.i=null}return this}},{key:"skewSelf",value:function(t,n){if(n%=360,(t%=360)||n){var r=this.m,e=r[0],i=r[1],o=r[2],u=r[3];t&&(t=P(t*I),r[2]+=e*t,r[3]+=i*t),n&&(n=P(n*I),r[0]+=o*n,r[1]+=u*n),this.w=this.s=this.i=null}return this}},{key:"resetSelf",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:0,e=arguments.length>3&&void 0!==arguments[3]?arguments[3]:1,i=arguments.length>4&&void 0!==arguments[4]?arguments[4]:0,o=arguments.length>5&&void 0!==arguments[5]?arguments[5]:0,u=this.m;return u[0]=t,u[1]=n,u[2]=r,u[3]=e,u[4]=i,u[5]=o,this.w=this.s=this.i=null,this}},{key:"recomposeSelf",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null,e=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null,i=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null;return this.isIdentity||this.resetSelf(),t&&(t.x||t.y)&&this.translateSelf(t.x,t.y),n&&this.rotateSelf(n),r&&(r.x&&this.skewSelf(r.x,0),r.y&&this.skewSelf(0,r.y)),!e||1===e.x&&1===e.y||this.scaleSelf(e.x,e.y),i&&(i.x||i.y)&&this.translateSelf(i.x,i.y),this}},{key:"decompose",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,r=this.m,e=r[0]*r[0]+r[1]*r[1],i=[[r[0],r[1]],[r[2],r[3]]],o=F(e);if(0===o)return{origin:{x:d(r[4]),y:d(r[5])},translate:{x:d(t),y:d(n)},scale:{x:0,y:0},skew:{x:0,y:0},rotate:0};i[0][0]/=o,i[0][1]/=o;var u=r[0]*r[3]-r[1]*r[2]<0;u&&(o=-o);var a=i[0][0]*i[1][0]+i[0][1]*i[1][1];i[1][0]-=i[0][0]*a,i[1][1]-=i[0][1]*a;var l=F(i[1][0]*i[1][0]+i[1][1]*i[1][1]);if(0===l)return{origin:{x:d(r[4]),y:d(r[5])},translate:{x:d(t),y:d(n)},scale:{x:d(o),y:0},skew:{x:0,y:0},rotate:0};i[1][0]/=l,i[1][1]/=l,a/=l;var f=0;return i[1][1]<0?(f=j(i[1][1])*R,i[0][1]<0&&(f=360-f)):f=M(i[0][1])*R,u&&(f=-f),a=E(a,F(i[0][0]*i[0][0]+i[0][1]*i[0][1]))*R,u&&(a=-a),{origin:{x:d(r[4]),y:d(r[5])},translate:{x:d(t),y:d(n)},scale:{x:d(o),y:d(l)},skew:{x:d(a),y:0},rotate:d(f)}}},{key:"clone",value:function(){var t=this.m;return new this.constructor(t[0],t[1],t[2],t[3],t[4],t[5])}},{key:"toString",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:" ";if(null===this.s){var n=this.m.map((function(t){return d(t)}));1===n[0]&&0===n[1]&&0===n[2]&&1===n[3]?this.s="translate("+n[4]+t+n[5]+")":this.s="matrix("+n.join(t)+")"}return this.s}}],[{key:"create",value:function(t){return t?Array.isArray(t)?s(this,v(t)):t instanceof this?t.clone():(new this).recomposeSelf(t.origin,t.rotate,t.skew,t.scale,t.translate):new this}}]),t}();function T(t,n,r){return t>=.5?r:n}function B(t,n,r){return 0===t||n===r?n:t*(r-n)+n}function q(t,n,r){var e=B(t,n,r);return e<=0?0:e}function L(t,n,r){var e=B(t,n,r);return e<=0?0:e>=1?1:e}function C(t,n,r){return 0===t?n:1===t?r:{x:B(t,n.x,r.x),y:B(t,n.y,r.y)}}function D(t,n,r){var e=function(t,n,r){return Math.round(B(t,n,r))}(t,n,r);return e<=0?0:e>=255?255:e}function z(t,n,r){return 0===t?n:1===t?r:{r:D(t,n.r,r.r),g:D(t,n.g,r.g),b:D(t,n.b,r.b),a:B(t,null==n.a?1:n.a,null==r.a?1:r.a)}}function V(t,n){for(var r=[],e=0;e<t;e++)r.push(n);return r}function G(t,n){if(--n<=0)return t;var r=(t=Object.assign([],t)).length;do{for(var e=0;e<r;e++)t.push(t[e])}while(--n>0);return t}var Y,$=function(){function t(n){e(this,t),this.list=n,this.length=n.length}return o(t,[{key:"setAttribute",value:function(t,n){for(var r=this.list,e=0;e<this.length;e++)r[e].setAttribute(t,n)}},{key:"removeAttribute",value:function(t){for(var n=this.list,r=0;r<this.length;r++)n[r].removeAttribute(t)}},{key:"style",value:function(t,n){for(var r=this.list,e=0;e<this.length;e++)r[e].style[t]=n}}]),t}(),U=/-./g,Q=function(t,n){return n.toUpperCase()};function H(t){return"function"==typeof t?t:T}function J(t){return t?"function"==typeof t?t:Array.isArray(t)?function(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:b;if(!Array.isArray(t))return n;switch(t.length){case 1:return S(t[0])||n;case 2:return S(t[0],t[1])||n;case 4:return A(t[0],t[1],t[2],t[3])||n}return n}(t,null):function(t,n){var r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:b;switch(t){case"linear":return b;case"steps":return S(n.steps||1,n.jump||0)||r;case"bezier":case"cubic-bezier":return A(n.x1||0,n.y1||0,n.x2||0,n.y2||0)||r}return r}(t.type,t.value,null):null}function Z(t,n,r){var e=arguments.length>3&&void 0!==arguments[3]&&arguments[3],i=n.length-1;if(t<=n[0].t)return e?[0,0,n[0].v]:n[0].v;if(t>=n[i].t)return e?[i,1,n[i].v]:n[i].v;var o,u=n[0],a=null;for(o=1;o<=i;o++){if(!(t>n[o].t)){a=n[o];break}u=n[o]}return null==a?e?[i,1,n[i].v]:n[i].v:u.t===a.t?e?[o,1,a.v]:a.v:(t=(t-u.t)/(a.t-u.t),u.e&&(t=u.e(t)),e?[o,t,r(t,u.v,a.v)]:r(t,u.v,a.v))}function K(t,n){var r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;return t&&t.length?"function"!=typeof n?null:("function"!=typeof r&&(r=null),function(e){var i=Z(e,t,n);return null!=i&&r&&(i=r(i)),i}):null}function W(t,n){return t.t-n.t}function X(t,n,e,i,o){var u,a="@"===e[0],l="#"===e[0],f=Y[e],s=T;switch(a?(u=e.substr(1),e=u.replace(U,Q)):l&&(e=e.substr(1)),r(f)){case"function":if(s=f(i,o,Z,J,e,a,n,t),l)return s;break;case"string":s=K(i,H(f));break;case"object":if((s=K(i,H(f.i),f.f))&&"function"==typeof f.u)return f.u(n,s,e,a,t)}return s?function(t,n,r){if(arguments.length>3&&void 0!==arguments[3]&&arguments[3])return t instanceof $?function(e){return t.style(n,r(e))}:function(e){return t.style[n]=r(e)};if(Array.isArray(n)){var e=n.length;return function(i){var o=r(i);if(null==o)for(var u=0;u<e;u++)t[u].removeAttribute(n);else for(var a=0;a<e;a++)t[a].setAttribute(n,o)}}return function(e){var i=r(e);null==i?t.removeAttribute(n):t.setAttribute(n,i)}}(n,e,s,a):null}function tt(t,n,e,i){if(!i||"object"!==r(i))return null;var o=null,u=null;return Array.isArray(i)?u=function(t){if(!t||!t.length)return null;for(var n=0;n<t.length;n++)t[n].e&&(t[n].e=J(t[n].e));return t.sort(W)}(i):(u=i.keys,o=i.data||null),u?X(t,n,e,u,o):null}function nt(t,n,r){if(!r)return null;var e=[];for(var i in r)if(r.hasOwnProperty(i)){var o=tt(t,n,i,r[i]);o&&e.push(o)}return e.length?e:null}function rt(t,n){if(!n.duration||n.duration<0)return null;var r=function(t,n){if(!n)return null;var r=[];if(Array.isArray(n))for(var e=n.length,i=0;i<e;i++){var o=n[i];if(2===o.length){var u=null;if("string"==typeof o[0])u=t.getElementById(o[0]);else if(Array.isArray(o[0])){u=[];for(var a=0;a<o[0].length;a++)if("string"==typeof o[0][a]){var l=t.getElementById(o[0][a]);l&&u.push(l)}u=u.length?1===u.length?u[0]:new $(u):null}if(u){var f=nt(t,u,o[1]);f&&(r=r.concat(f))}}}else for(var s in n)if(n.hasOwnProperty(s)){var c=t.getElementById(s);if(c){var h=nt(t,c,n[s]);h&&(r=r.concat(h))}}return r.length?r:null}(t,n.elements);return r?function(t,n){var r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1/0,e=arguments.length>3&&void 0!==arguments[3]?arguments[3]:1,i=arguments.length>4&&void 0!==arguments[4]&&arguments[4],o=arguments.length>5&&void 0!==arguments[5]?arguments[5]:1,u=t.length,a=e>0?n:0;i&&r%2==0&&(a=n-a);var l=null;return function(f,s){var c=f%n,h=1+(f-c)/n;s*=e,i&&h%2==0&&(s=-s);var v=!1;if(h>r)c=a,v=!0,-1===o&&(c=e>0?0:n);else if(s<0&&(c=n-c),c===l)return!1;l=c;for(var y=0;y<u;y++)t[y](c);return v}}(r,n.duration,n.iterations||1/0,n.direction||1,!!n.alternate,n.fill||1):null}function et(t){return+("0x"+(t.replace(/[^0-9a-fA-F]+/g,"")||27))}function it(t,n,r){return!t||!r||n>t.length?t:t.substring(0,n)+it(t.substring(n+1),r,r)}function ot(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:27;return!t||t%n?t%n:ot(t/n,n)}function ut(t,n,r){if(t&&t.length){var e=et(r),i=et(n),o=ot(e)+5,u=it(t,ot(e,5),o);return u=u.replace(/\x7c$/g,"==").replace(/\x2f$/g,"="),u=function(t,n,r){var e=+("0x"+t.substring(0,4));t=t.substring(4);for(var i=n%e+r%27,o=[],u=0;u<t.length;u+=2)if("|"!==t[u]){var a=+("0x"+t[u]+t[u+1])-i;o.push(a)}else{var l=+("0x"+t.substring(u+1,u+1+4))-i;u+=3,o.push(l)}return String.fromCharCode.apply(String,o)}(u=(u=atob(u)).replace(/[\x41-\x5A]/g,""),i,e),u=JSON.parse(u)}}Number.isInteger||(Number.isInteger=function(t){return"number"==typeof t&&isFinite(t)&&Math.floor(t)===t}),Number.EPSILON||(Number.EPSILON=2220446049250313e-31);var at=function(){function t(n,r){var i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};e(this,t),this._id=0,this._running=!1,this._rollingBack=!1,this._animations=n,this.duration=r.duration,this.alternate=r.alternate,this.fill=r.fill,this.iterations=r.iterations,this.direction=i.direction||1,this.speed=i.speed||1,this.fps=i.fps||100,this.offset=i.offset||0,this.rollbackStartOffset=0}return o(t,[{key:"_rollback",value:function(){var t=this,n=1/0,r=null;this.rollbackStartOffset=this.offset,this._rollingBack||(this._rollingBack=!0,this._running=!0);this._id=window.requestAnimationFrame((function e(i){if(t._rollingBack){null==r&&(r=i);var o=i-r,u=t.rollbackStartOffset-o,a=Math.round(u*t.speed);if(a>t.duration&&n!=1/0){var l=!!t.alternate&&a/t.duration%2>1,f=a%t.duration;a=(f+=l?t.duration:0)||t.duration}var s=t.fps?1e3/t.fps:0,c=Math.max(0,a);if(c<n-s){t.offset=c,n=c;for(var h=t._animations,v=h.length,y=0;y<v;y++)h[y](c,t.direction)}var g=!1;if(t.iterations>0&&-1===t.fill){var d=t.iterations*t.duration,p=d==a;a=p?0:a,t.offset=p?0:t.offset,g=a>d}a>0&&t.offset>=a&&!g?t._id=window.requestAnimationFrame(e):t.stop()}}))}},{key:"_start",value:function(){var t=this,n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,r=-1/0,e=null,i={},o=function o(u){t._running=!0,null==e&&(e=u);var a=Math.round((u-e+n)*t.speed),l=t.fps?1e3/t.fps:0;if(a>r+l&&!t._rollingBack){t.offset=a,r=a;for(var f=t._animations,s=f.length,c=0,h=0;h<s;h++)i[h]?c++:(i[h]=f[h](a,t.direction),i[h]&&c++);if(c===s)return void t._stop()}t._id=window.requestAnimationFrame(o)};this._id=window.requestAnimationFrame(o)}},{key:"_stop",value:function(){this._id&&window.cancelAnimationFrame(this._id),this._running=!1,this._rollingBack=!1}},{key:"play",value:function(){!this._rollingBack&&this._running||(this._rollingBack=!1,this.rollbackStartOffset>this.duration&&(this.offset=this.rollbackStartOffset-(this.rollbackStartOffset-this.offset)%this.duration,this.rollbackStartOffset=0),this._start(this.offset))}},{key:"stop",value:function(){this._stop(),this.offset=0,this.rollbackStartOffset=0;var t=this.direction,n=this._animations;window.requestAnimationFrame((function(){for(var r=0;r<n.length;r++)n[r](0,t)}))}},{key:"reachedToEnd",value:function(){return this.iterations>0&&this.offset>=this.iterations*this.duration}},{key:"restart",value:function(){this._stop(),this.offset=0,this._start()}},{key:"pause",value:function(){this._stop()}},{key:"reverse",value:function(){this.direction=-this.direction}}],[{key:"build",value:function(r,e){return delete r.animationSettings,r.options=ut(r.options,r.root,"5c7f360c"),r.animations.map((function(t){var e=ut(t.s,r.root,"5c7f360c");for(var i in delete t.s,r.animationSettings||(r.animationSettings=n({},e)),e)e.hasOwnProperty(i)&&(t[i]=e[i])})),(r=function(t,n){if(Y=n,!t||!t.root||!Array.isArray(t.animations))return null;for(var r=document.getElementsByTagName("svg"),e=!1,i=0;i<r.length;i++)if(r[i].id===t.root&&!r[i].svgatorAnimation){(e=r[i]).svgatorAnimation=!0;break}if(!e)return null;var o=t.animations.map((function(t){return rt(e,t)})).filter((function(t){return!!t}));return o.length?{element:e,animations:o,animationSettings:t.animationSettings,options:t.options||void 0}:null}(r,e))?{el:r.element,options:r.options||{},player:new t(r.animations,r.animationSettings,r.options)}:null}},{key:"push",value:function(t){return this.build(t)}},{key:"init",value:function(){var t=this,n=window.__SVGATOR_PLAYER__&&window.__SVGATOR_PLAYER__["5c7f360c"];Array.isArray(n)&&n.splice(0).forEach((function(n){return t.build(n)}))}}]),t}();function lt(t){return d(t)+""}function ft(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:" ";return t&&t.length?t.map(lt).join(n):""}function st(t){if(!t)return"transparent";if(null==t.a||t.a>=1){var n=function(t){return 1===(t=parseInt(t).toString(16)).length?"0"+t:t},r=function(t){return t.charAt(0)===t.charAt(1)},e=n(t.r),i=n(t.g),o=n(t.b);return r(e)&&r(i)&&r(o)&&(e=e.charAt(0),i=i.charAt(0),o=o.charAt(0)),"#"+e+i+o}return"rgba("+t.r+","+t.g+","+t.b+","+t.a+")"}function ct(t){return t?"url(#"+t+")":"none"}!function(){for(var t=0,n=["ms","moz","webkit","o"],r=0;r<n.length&&!window.requestAnimationFrame;++r)window.requestAnimationFrame=window[n[r]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[n[r]+"CancelAnimationFrame"]||window[n[r]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(n){var r=Date.now(),e=Math.max(0,16-(r-t)),i=window.setTimeout((function(){n(r+e)}),e);return t=r+e,i},window.cancelAnimationFrame=window.clearTimeout)}();var ht={f:null,i:function(t,n,r){return 0===t?n:1===t?r:{x:q(t,n.x,r.x),y:q(t,n.y,r.y)}},u:function(t,n){return function(r){var e=n(r);t.setAttribute("rx",lt(e.x)),t.setAttribute("ry",lt(e.y))}}},vt={f:null,i:function(t,n,r){return 0===t?n:1===t?r:{width:q(t,n.width,r.width),height:q(t,n.height,r.height)}},u:function(t,n){return function(r){var e=n(r);t.setAttribute("width",lt(e.width)),t.setAttribute("height",lt(e.height))}}};Object.freeze({M:2,L:2,Z:0,H:1,V:1,C:6,Q:4,T:2,S:4,A:7});var yt={},gt=null;function dt(t){var n=function(){if(gt)return gt;if("object"!==("undefined"==typeof document?"undefined":r(document))||!document.createElementNS)return{};var t=document.createElementNS("http://www.w3.org/2000/svg","svg");return t&&t.style?(t.style.position="absolute",t.style.opacity="0.01",t.style.zIndex="-9999",t.style.left="-9999px",t.style.width="1px",t.style.height="1px",gt={svg:t}):{}}().svg;if(!n)return function(t){return null};var e=document.createElementNS(n.namespaceURI,"path");e.setAttributeNS(null,"d",t),e.setAttributeNS(null,"fill","none"),e.setAttributeNS(null,"stroke","none"),n.appendChild(e);var i=e.getTotalLength();return function(t){var n=e.getPointAtLength(i*t);return{x:n.x,y:n.y}}}function pt(t){return yt[t]?yt[t]:yt[t]=dt(t)}function mt(t,n,r,e){if(!t||!e)return!1;var i=["M",t.x,t.y];if(n&&r&&(i.push("C"),i.push(n.x),i.push(n.y),i.push(r.x),i.push(r.y)),n?!r:r){var o=n||r;i.push("Q"),i.push(o.x),i.push(o.y)}return n||r||i.push("L"),i.push(e.x),i.push(e.y),i.join(" ")}function bt(t,n,r,e){var i=arguments.length>4&&void 0!==arguments[4]?arguments[4]:1,o=mt(t,n,r,e),u=pt(o);try{return u(i)}catch(t){return null}}function wt(t,n,r,e){var i=1-e;return i*i*t+2*i*e*n+e*e*r}function At(t,n,r,e){return 2*(1-e)*(n-t)+2*e*(r-n)}function xt(t,n,r,e){var i=arguments.length>4&&void 0!==arguments[4]&&arguments[4],o=bt(t,n,null,r,e);return o||(o={x:wt(t.x,n.x,r.x,e),y:wt(t.y,n.y,r.y,e)}),i&&(o.a=kt(t,n,r,e)),o}function kt(t,n,r,e){return Math.atan2(At(t.y,n.y,r.y,e),At(t.x,n.x,r.x,e))}function St(t,n,r,e,i){var o=i*i;return i*o*(e-t+3*(n-r))+3*o*(t+r-2*n)+3*i*(n-t)+t}function _t(t,n,r,e,i){var o=1-i;return 3*(o*o*(n-t)+2*o*i*(r-n)+i*i*(e-r))}function Ot(t,n,r,e,i){var o=arguments.length>5&&void 0!==arguments[5]&&arguments[5],u=bt(t,n,r,e,i);return u||(u={x:St(t.x,n.x,r.x,e.x,i),y:St(t.y,n.y,r.y,e.y,i)}),o&&(u.a=jt(t,n,r,e,i)),u}function jt(t,n,r,e,i){return Math.atan2(_t(t.y,n.y,r.y,e.y,i),_t(t.x,n.x,r.x,e.x,i))}function Mt(t,n,r){return t+(n-t)*r}function Pt(t,n,r){var e=arguments.length>3&&void 0!==arguments[3]&&arguments[3],i={x:Mt(t.x,n.x,r),y:Mt(t.y,n.y,r)};return e&&(i.a=Et(t,n)),i}function Et(t,n){return Math.atan2(n.y-t.y,n.x-t.x)}function It(t,n,r){var e=arguments.length>3&&void 0!==arguments[3]&&arguments[3];if(Ft(n)){if(Nt(r))return xt(n,r.start,r,t,e)}else if(Ft(r)){if(n.end)return xt(n,n.end,r,t,e)}else{if(n.end)return r.start?Ot(n,n.end,r.start,r,t,e):xt(n,n.end,r,t,e);if(r.start)return xt(n,r.start,r,t,e)}return Pt(n,r,t,e)}function Rt(t,n,r){var e=It(t,n,r,!0);return e.a=function(t){return arguments.length>1&&void 0!==arguments[1]&&arguments[1]?t+Math.PI:t}(e.a)/m,e}function Ft(t){return!t.type||"corner"===t.type}function Nt(t){return null!=t.start&&!Ft(t)}var Tt=new N;var Bt={f:lt,i:B},qt={f:lt,i:L};function Lt(t,n,r){return t.map((function(t){return function(t,n,r){var e=t.v;if(!e||"g"!==e.t||e.s||!e.v||!e.r)return t;var i=r.getElementById(e.r),o=i&&i.querySelectorAll("stop")||[];return e.s=e.v.map((function(t,n){var r=o[n]&&o[n].getAttribute("offset");return{c:t,o:r=d(parseInt(r)/100)}})),delete e.v,t}(t,0,r)}))}var Ct={gt:"gradientTransform",c:{x:"cx",y:"cy"},rd:"r",f:{x:"x1",y:"y1"},to:{x:"x2",y:"y2"}};function Dt(t,n,e,i,o,u,a,l){return Lt(t,0,l),n=function(t,n,r){for(var e,i,o,u=t.length-1,a={},l=0;l<=u;l++)(e=t[l]).e&&(e.e=n(e.e)),e.v&&"g"===(i=e.v).t&&i.r&&(o=r.getElementById(i.r))&&(a[i.r]={e:o,s:o.querySelectorAll("stop")});return a}(t,i,l),function(i){var o=e(i,t,zt);if(!o)return"none";if("c"===o.t)return st(o.v);if("g"===o.t){if(!n[o.r])return ct(o.r);var u=n[o.r];return function(t,n){for(var r=t.s,e=r.length;e<n.length;e++){var i=r[r.length-1].cloneNode();i.id=Yt(i.id),t.e.appendChild(i),r=t.s=t.e.querySelectorAll("stop")}for(var o=0,u=r.length,a=n.length-1;o<u;o++)r[o].setAttribute("stop-color",st(n[Math.min(o,a)].c)),r[o].setAttribute("offset",n[Math.min(o,a)].o)}(u,o.s),Object.keys(Ct).forEach((function(t){if(void 0!==o[t])if("object"!==r(Ct[t])){var n,e="gt"===t?(n=o[t],Array.isArray(n)?"matrix("+n.join(" ")+")":""):o[t],i=Ct[t];u.e.setAttribute(i,e)}else Object.keys(Ct[t]).forEach((function(n){if(void 0!==o[t][n]){var r=o[t][n],e=Ct[t][n];u.e.setAttribute(e,r)}}))})),ct(o.r)}return"none"}}function zt(t,r,e){if(0===t)return r;if(1===t)return e;if(r&&e){var i=r.t;if(i===e.t)switch(r.t){case"c":return{t:i,v:z(t,r.v,e.v)};case"g":if(r.r===e.r){var o={t:i,s:Vt(t,r.s,e.s),r:r.r};return r.gt&&e.gt&&(o.gt=function(t,n,r){var e=n.length;if(e!==r.length)return T(t,n,r);for(var i=new Array(e),o=0;o<e;o++)i[o]=B(t,n[o],r[o]);return i}(t,r.gt,e.gt)),r.c?(o.c=C(t,r.c,e.c),o.rd=q(t,r.rd,e.rd)):r.f&&(o.f=C(t,r.f,e.f),o.to=C(t,r.to,e.to)),o}}if("c"===r.t&&"g"===e.t||"c"===e.t&&"g"===r.t){var u="c"===r.t?r:e,a="g"===r.t?n({},r):n({},e),l=a.s.map((function(t){return{c:u.v,o:t.o}}));return a.s="c"===r.t?Vt(t,l,a.s):Vt(t,a.s,l),a}}return T(t,r,e)}function Vt(t,n,r){if(n.length===r.length)return n.map((function(n,e){return Gt(t,n,r[e])}));for(var e=Math.max(n.length,r.length),i=[],o=0;o<e;o++){var u=Gt(t,n[Math.min(o,n.length-1)],r[Math.min(o,r.length-1)]);i.push(u)}return i}function Gt(t,n,r){return{o:L(t,n.o,r.o||0),c:z(t,n.c,r.c||{})}}function Yt(t){return t.replace(/-fill-([0-9]+)$/,(function(t,n){return"-fill-"+(+n+1)}))}var $t={fill:Dt,"fill-opacity":qt,stroke:Dt,"stroke-opacity":qt,"stroke-width":Bt,"stroke-dashoffset":{f:lt,i:B},"stroke-dasharray":{f:function(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:" ";return t&&t.length>0&&(t=t.map((function(t){return d(t,4)}))),ft(t,n)},i:function(t,n,r){var e,i,o,u=n.length,a=r.length;if(u!==a)if(0===u)n=V(u=a,0);else if(0===a)a=u,r=V(u,0);else{var l=(o=(e=u)*(i=a)/function(t,n){for(var r;n;)r=n,n=t%n,t=r;return t||1}(e,i))<0?-o:o;n=G(n,Math.floor(l/u)),r=G(r,Math.floor(l/a)),u=a=l}for(var f=[],s=0;s<u;s++)f.push(d(q(t,n[s],r[s])));return f}},opacity:qt,transform:function(t,n,e,i){if(!(t=function(t,n){if(!t||"object"!==r(t))return null;var e=!1;for(var i in t)t.hasOwnProperty(i)&&(t[i]&&t[i].length?(t[i].forEach((function(t){t.e&&(t.e=n(t.e))})),e=!0):delete t[i]);return e?t:null}(t,i)))return null;var o=function(r,i,o){var u=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null;return t[r]?e(i,t[r],o):n&&n[r]?n[r]:u};return n&&n.a&&t.o?function(n){var r=e(n,t.o,Rt);return Tt.recomposeSelf(r,o("r",n,B,0)+r.a,o("k",n,C),o("s",n,C),o("t",n,C)).toString()}:function(t){return Tt.recomposeSelf(o("o",t,It,null),o("r",t,B,0),o("k",t,C),o("s",t,C),o("t",t,C)).toString()}},r:Bt,"#size":vt,"#radius":ht,_:function(t,n){if(Array.isArray(t))for(var r=0;r<t.length;r++)this[t[r]]=n;else this[t]=n}},Ut=function(t){!function(t,n){if("function"!=typeof n&&null!==n)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(n&&n.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),n&&l(t,n)}(u,t);var n,r,i=(n=u,r=f(),function(){var t,e=a(n);if(r){var i=a(this).constructor;t=Reflect.construct(e,arguments,i)}else t=e.apply(this,arguments);return c(this,t)});function u(){return e(this,u),i.apply(this,arguments)}return o(u,null,[{key:"build",value:function(t){var n=h(a(u),"build",this).call(this,t,$t);if(!n)return null;n.el,n.options,function(t,n,r){t.play()}(n.player)}}]),u}(at);return Ut.init(),Ut}));
+(function(s,i,o,w){w[o]=w[o]||{};w[o][s]=w[o][s]||[];w[o][s].push(i);})('5c7f360c',{"root":"eO3InFapEdH1","animations":[{"elements":{"eO3InFapEdH4":{"opacity":[{"t":0,"v":1,"e":[0.175,0.885,0.32,1.275]},{"t":1000,"v":0},{"t":4000,"v":0},{"t":5000,"v":1,"e":[0.68,-0.275,0.825,0.115]}]},"eO3InFapEdH5":{"opacity":[{"t":0,"v":1,"e":[0.175,0.885,0.32,1.275]},{"t":1000,"v":0},{"t":4000,"v":0},{"t":5000,"v":1,"e":[0.68,-0.275,0.825,0.115]}]},"eO3InFapEdH6":{"opacity":[{"t":0,"v":1,"e":[0.175,0.885,0.32,1.275]},{"t":1000,"v":0},{"t":4000,"v":0},{"t":5000,"v":1,"e":[0.68,-0.275,0.825,0.115]}]},"eO3InFapEdH7":{"opacity":[{"t":0,"v":1,"e":[0.175,0.885,0.32,1.275]},{"t":1000,"v":0},{"t":4000,"v":0},{"t":5000,"v":1,"e":[0.68,-0.275,0.825,0.115]}]},"eO3InFapEdH8":{"opacity":[{"t":0,"v":1,"e":[0.175,0.885,0.32,1.275]},{"t":1000,"v":0},{"t":4000,"v":0},{"t":5000,"v":1,"e":[0.68,-0.275,0.825,0.115]}]},"eO3InFapEdH9":{"transform":{"data":{"t":{"x":-233.333,"y":-202.748001}},"keys":{"o":[{"t":0,"v":{"x":233.333,"y":202.748001,"type":"corner"},"e":[0.25,1,0.25,1]},{"t":1000,"v":{"x":207.137,"y":202.748001,"type":"corner"},"e":[0.25,1,0.74,0.43]},{"t":4000,"v":{"x":207.137,"y":202.748001,"type":"corner"},"e":[0.785,0.135,0.15,0.86]},{"t":5000,"v":{"x":233.333,"y":202.748001,"type":"corner"},"e":[0.6,-0.28,0.735,0.045]}]}}}},"s":"MFDA1MzliNDI4NDk1OTIJZODFQOTQ4OThmOGVWINDI1YTU4RjUwNTA1GMDRjNDI4NEM4OTkyOTDU4Mzk0ODk4ZjhlVTSQyNWFXNTE0YzQyODlFQOTQ4NVQ5MjgxOTQ4XOThmTjhlOTM0MjVhNYTA0Y1Y0Mjg2ODk4YzQhjNDI1YUE1MTRjNDIP4MThjOTQ4NTkyOGU4RMU45NDg1NDI1YUY4NMjgxOGM5Mzg1NGM0MkK05MzkwODU4NTg0NDIQ1YTUxOWQ/"}],"options":"MODAxMDg4MmY4MDgxNmAU3ZjgxMmY0NzJmNzkX3YzZlNzEyZjhh"},'__SVGATOR_PLAYER__',window)]]></script></svg>
+                    <img class="signature" src="images/signature_1.svg" alt="">
+
+                </section>
+                <!-- ================== ABOUT END ================== -->
+                <section id="habilidades" class="section">
+                    <h2 class="title">HABILIDADES</h2>
+                    <p class="content-670">
+                        Me desenvuelvo en sistemas Mac OS y PC WIN indistintamente, me gusta la informática y el hardware. Domino Photoshop, Illustrator, indesign, Premiere Pro, After Effects y Acrobat Pro como herramientas del día a día. Utilizo C4D y Blender para mockups en 3D e integraciones 3D en fotos. Siento interes por aprender HTML5 a demás de CSS, Action Script y temas de diseño WEB. Aprendo rápido, me adapto fácilmente.
+                    </p>              
+<ul class="skills-progress">
+    
+    <li>
+        <span class="name"><img src="images/ARDC.png" style="height: 20PX;" alt="Acrobat Reader DC"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="63%"></div>
+        </div>
+    </li>
+    
+    <li>
+        <span class="name"><img src="images/PS.png" style="height: 20PX;" alt="Photoshop"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="82%"></div>
+        </div>
+    </li>
+
+    <li>
+        <span class="name"><img src="images/ILL.png" style="height: 20PX;" alt="Illustrator"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="75%"></div>
+        </div>
+    </li>
+
+    <li>
+        <span class="name"><img src="images/IND.png" style="height: 20PX;" alt="Indesign"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="60%"></div>
+        </div>
+    </li>
+
+    <li>
+        <span class="name"><img src="images/PR P.png" style="height: 20PX;" alt="Premiere Pro"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="50%"></div>
+        </div>
+    </li>
+
+    <li>
+        <span class="name"><img src="images/AF.png" style="height: 20PX;" alt="AfterEffects"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="45%"></div>
+        </div>
+    </li>
+    <li>
+        <span class="name"><img src="images/C4D.png" style="height: 20PX;" alt="Cinema 4D"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="33%"></div>
+        </div>
+    </li>
+
+    <li>
+        <span class="name"><img src="images/B3D.png" style="height: 20PX;" alt="Blender 3D"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="53%"></div>
+        </div>
+    </li>
+   
+    <li>
+        <span class="name"><img src="images/HTML.png" style="height: 20PX;" alt="HTML"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="35%"></div>
+        </div>
+    </li>
+    
+    <li>
+        <span class="name"><img src="images/BTRP.png" style="height: 20PX;" alt="Bootstrap"></a></span>
+        <div class="skill">
+            <div class="skill-fill" data-fill="30%"></div>
+        </div>
+    </li>
+</ul>
+                <!-- ================== SKILLS ================== -->
+<section id="experiencia" class="section">
+    <h2 class="title">EXPERIENCIA</h2>
+    <div class="section-des">
+        Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique placerat
+    </div>
+    <p class="content-670">
+        Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus. Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu.
+    </p>
+
+    <ul class="skills-history block-right">
+        <li>
+            <span class="date">2022</span>
+            <p>
+                <strong>2022 - actualmente </strong><br>Bluemice.<br>Diseñador gráfico e infografista 3D. Elaboración de presupuestos, coordinación con proveedores para filmado profesional, entrega y control de artes finales. Conceptualización de eventos, escenografía, iluminación, renders y/o video-renders, presentaciones en Powerpoint. Animaciones de logos, intros y outros para AfterEffects, etalonaje de video, montaje y edición. Formación y ayuda a los contratados de beca en el departamento.
+            </p>
+        </li>
+
+        <li>
+            <span class="date">2017</span>
+            <p>
+                <strong>2017 - 2022</strong><br>Agrupo.<br>Diseñador gráfico e infografista 3D. Aporté gran parte del <i>Know how</i> que a día de hoy utilizan en la empresa. Desde metodología de trabajo a integración de
+                herramientas para adaptarse al mercado las necesidades de la empresa. Desempeñé un perfil tanto creativo como de diseñador gráfico formando y ayudando a mis compañeros en el departamento de diseño.
+            </p>
+        </li>
+
+        <li>
+            <span class="date">2016</span>
+            <p>
+                <strong>2016 - 2017</strong><br>Freelace.<br>Durante este periodo de tiempo realizaba pequeños encargos de diseño en combinación con otro tipo trabajos. Normalmente diseño de Logos, Montaje y edicioón de videos y algunos proyectos propios en <i>motion graphics</i>.
+            </p>
+        </li>
+
+        <li>
+            <span class="date">2012</span>
+            <p>
+                <strong>2012 - 2015</strong><br>Espacios de Cmunicación.<br>Diseño de <i>stands</i> para importantes
+                firmas. Prestando un servicio integral; diseñaba, construíamos y ensamblábamos <i>in house</i> entregándo el <i>stand,</i> como se dice, llave en mano.
+            </p>
+        </li>
+    </ul>
+
+</section>
+<!-- =============== SKILLS END =============== -->
+<!-- ==================== PORTFOLIO ==================== -->
+<section id="portfolio" class="section">
+    <h2 class="title">PORTFOLIO</h2>
+    <div class="section-des">
+        Viverra tristique placerat  massa est consectetur quisque nu fames lorem ipsum dolor sit amet consectetu.
+    </div>
+
+    <div id="portfolio-wrapper" class="relative block-right">                        
+        <div class="portfolio-load-content-holder"></div>
+        <div class="grid" id="portfolio-grid">                                                            
+            <div class="grid-sizer"></div>
+
+            <div id="p-item-1" class="grid-item element-item p-one">
+                <a class="item-link ajax-portfolio" href="" data-id="1">
+                    <img src="images/portfolio1 copia.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Sneakers</p>
+                            <p class="portfolio-cat">Text</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div id="p-item-2" class="grid-item element-item p-one-half">
+                <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
+                    <img src="images/portfolio2 copia.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Stairways</p>
+                            <p class="portfolio-cat">Text</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div id="p-item-3" class="grid-item element-item p-one-half">
+                <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
+                    <img src="images/portfolio3.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Nature</p>
+                            <p class="portfolio-cat">Text</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item element-item p-one-half">
+                <a class="item-link" href="https://vimeo.com/199192931" data-rel="prettyPhoto[portfolio]">
+                    <img src="images/portfolio4.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Architecture</p>
+                            <p class="portfolio-cat">Video</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item element-item p-one">
+                <a class="item-link" href="images/item1.jpg" data-rel="prettyPhoto[portfolio]">
+                    <img src="images/portfolio5.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Art</p>
+                            <p class="portfolio-cat">Image</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+            <div id="p-item-2" class="grid-item element-item p-one-half">
+                <a class="item-link ajax-portfolio" href="portfolio-2.html" data-id="2">
+                    <img src="images/portfolio2.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Stairways</p>
+                            <p class="portfolio-cat">Text</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div id="p-item-3" class="grid-item element-item p-one-half">
+                <a class="item-link ajax-portfolio" href="portfolio-3.html" data-id="3">
+                    <img src="images/portfolio3.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Nature</p>
+                            <p class="portfolio-cat">Text</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="grid-item element-item p-one-half">
+                <a class="item-link" href="https://vimeo.com/199192931" data-rel="prettyPhoto[portfolio]">
+                    <img src="images/portfolio4.jpg" alt="" />
+                    <div class="portfolio-text-holder">
+                        <div class="portfolio-text-wrapper">
+                            <p class="portfolio-text">Architecture</p>
+                            <p class="portfolio-cat">Video</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>                
+    </div> 
+    
+    
+</section>
+<!-- ================== PORTFOLIO END ================== -->
+
+
+
+                <!-- ==================== ABOUT ==================== -->
+                <section id="contacto" class="section">
+                    <h2 class="title">CONTACTO</h2>
+                    <div class="section-des">
+                        Pégame un toque al móvil, sino mándame un email.
+                    </div>
+                    <div class="content-670">
+                        <p>
+                            Para consultar cualquier duda o agendar una entrenista puedes llamarme por teléfono, pero si lo prefieres tambien puedes escribirme directamente desde el formulario a continuación.
+                        </p>
+                    </div>
+
+                    <a href="https://www.google.com/maps/place/Central+Park/@40.7828647,-73.9653551,15z/data=!4m5!3m4!1s0x0:0xb9df1f7387a94119!8m2!3d40.7828647!4d-73.9653551" target="_blank">
+                        <img class="block-right" src="images/map2.png" alt="">                    
+                    </a>
+
+                    <div class="content-670">
+                        <div class="contact-form">
+                            <p>
+                                <input id="name" type="text" name="your-name" placeholder="NAME">
+                            </p>
+                            <p>
+                                <input id="contact-email" type="email" name="your-email" placeholder="EMAIL">
+                            </p>                                    
+                            <p>
+                                <input id="subject" type="text" name="your-subject" placeholder="SUBJECT">
+                            </p>
+                            <p>
+                                <textarea id="message" name="your-message" placeholder="MESSAGE"></textarea>
+                            </p>
+                            <p class="contact-submit-holder">
+                                <input type="submit" value="SEND">
+                            </p>                                
+                        </div> 
+                    </div>
+
+                </section>
+                <!-- ================== ABOUT END ================== -->
+            </div>
+        </div>
+
+        <!--=================== SCRIPT ===================-->
+        <script src="js/jquery.js"></script>       
+        <script src="js/imagesloaded.pkgd.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jarallax.js"></script>
+        <script src="js/jarallax-element.min.js"></script>
+        <script src="js/isotope.pkgd.js"></script>        
+        <script src="js/jquery.prettyPhoto.js"></script>                
+        <script src='js/owl.carousel.min.js'></script>                                                            
+        <script src="js/main.js"></script>
+    </body>
 </html>
